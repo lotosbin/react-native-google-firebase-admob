@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B452232FED6AD9735FE2353180982B329CD3A18D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B452232FED6AD9735FE2353180982B329CD3A18D" : 9223372036854775807,
+    "F5FDEE3C258C62E424D3BA9D237474DB18ABD8AC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "214C2669-8211-4F58-8723-9946C6B527C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B452232FED6AD9735FE2353180982B329CD3A18D" : "react-native-umeng-ushare\/",
+    "F5FDEE3C258C62E424D3BA9D237474DB18ABD8AC" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTUmengAnalytics",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RCTUmengAnalytics.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lotosbin\/react-native-umeng-ushare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B452232FED6AD9735FE2353180982B329CD3A18D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/yuanjingtech\/lanrenshipu-react-native.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5FDEE3C258C62E424D3BA9D237474DB18ABD8AC"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "react-native-google-firebaes-admob",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotosbin/react-native-google-firebase-admob.git"
+  },
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "test": "exit 0",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  }
+}
