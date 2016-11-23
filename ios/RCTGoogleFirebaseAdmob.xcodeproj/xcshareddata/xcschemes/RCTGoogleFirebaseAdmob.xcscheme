@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE26B1D71D64421700D853E8"
-               BuildableName = "libRCTUmengUShare.a"
-               BlueprintName = "RCTUmengUShare"
-               ReferencedContainer = "container:RCTUmengUShare.xcodeproj">
+               BuildableName = "libRCTGoogleFirebaseAdmob.a"
+               BlueprintName = "RCTGoogleFirebaseAdmob"
+               ReferencedContainer = "container:RCTGoogleFirebaseAdmob.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "RCTUmengAnalyticsTests.xctest"
                BlueprintName = "RCTUmengAnalyticsTests"
-               ReferencedContainer = "container:RCTUmengUShare.xcodeproj">
+               ReferencedContainer = "container:RCTGoogleFirebaseAdmob.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "RCTUmengAnalyticsTests.xctest"
                BlueprintName = "RCTUmengAnalyticsTests"
-               ReferencedContainer = "container:RCTUmengUShare.xcodeproj">
+               ReferencedContainer = "container:RCTGoogleFirebaseAdmob.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE26B1D71D64421700D853E8"
-            BuildableName = "libRCTUmengUShare.a"
-            BlueprintName = "RCTUmengUShare"
-            ReferencedContainer = "container:RCTUmengUShare.xcodeproj">
+            BuildableName = "libRCTGoogleFirebaseAdmob.a"
+            BlueprintName = "RCTGoogleFirebaseAdmob"
+            ReferencedContainer = "container:RCTGoogleFirebaseAdmob.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE26B1D71D64421700D853E8"
-            BuildableName = "libRCTUmengUShare.a"
-            BlueprintName = "RCTUmengUShare"
-            ReferencedContainer = "container:RCTUmengUShare.xcodeproj">
+            BuildableName = "libRCTGoogleFirebaseAdmob.a"
+            BlueprintName = "RCTGoogleFirebaseAdmob"
+            ReferencedContainer = "container:RCTGoogleFirebaseAdmob.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE26B1D71D64421700D853E8"
-            BuildableName = "libRCTUmengUShare.a"
-            BlueprintName = "RCTUmengUShare"
-            ReferencedContainer = "container:RCTUmengUShare.xcodeproj">
+            BuildableName = "libRCTGoogleFirebaseAdmob.a"
+            BlueprintName = "RCTGoogleFirebaseAdmob"
+            ReferencedContainer = "container:RCTGoogleFirebaseAdmob.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

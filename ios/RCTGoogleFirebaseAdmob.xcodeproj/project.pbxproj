@@ -27,7 +27,7 @@
 		4D10A0691DE43C9A00E36453 /* RCTUMengUShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUMengUShare.h; sourceTree = "<group>"; };
 		4D10A06A1DE43C9A00E36453 /* RCTUmengUShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTUmengUShare.m; sourceTree = "<group>"; };
 		4D10A0AC1DE47CEA00E36453 /* RCTConvert+UMSocialPlatformType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+UMSocialPlatformType.m"; sourceTree = "<group>"; };
-		CE26B1D81D64421700D853E8 /* libRCTUmengUShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTUmengUShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE26B1D81D64421700D853E8 /* libRCTGoogleFirebaseAdmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTGoogleFirebaseAdmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE26B1D81D64421700D853E8 /* libRCTUmengUShare.a */,
+				CE26B1D81D64421700D853E8 /* libRCTGoogleFirebaseAdmob.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE26B1D71D64421700D853E8 /* RCTUmengUShare */ = {
+		CE26B1D71D64421700D853E8 /* RCTGoogleFirebaseAdmob */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE26B1DE1D64421700D853E8 /* Build configuration list for PBXNativeTarget "RCTUmengUShare" */;
+			buildConfigurationList = CE26B1DE1D64421700D853E8 /* Build configuration list for PBXNativeTarget "RCTGoogleFirebaseAdmob" */;
 			buildPhases = (
 				CE26B1D41D64421700D853E8 /* Sources */,
 				CE26B1D51D64421700D853E8 /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTUmengUShare;
+			name = RCTGoogleFirebaseAdmob;
 			productName = RCTUmengAnalytics;
-			productReference = CE26B1D81D64421700D853E8 /* libRCTUmengUShare.a */;
+			productReference = CE26B1D81D64421700D853E8 /* libRCTGoogleFirebaseAdmob.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RCTUmengUShare" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RCTGoogleFirebaseAdmob" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE26B1D71D64421700D853E8 /* RCTUmengUShare */,
+				CE26B1D71D64421700D853E8 /* RCTGoogleFirebaseAdmob */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RCTUmengUShare" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RCTGoogleFirebaseAdmob" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
@@ -287,7 +287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE26B1DE1D64421700D853E8 /* Build configuration list for PBXNativeTarget "RCTUmengUShare" */ = {
+		CE26B1DE1D64421700D853E8 /* Build configuration list for PBXNativeTarget "RCTGoogleFirebaseAdmob" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE26B1DF1D64421700D853E8 /* Debug */,
