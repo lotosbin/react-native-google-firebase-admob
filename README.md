@@ -25,3 +25,5 @@ pod 'Firebase/AdMob'
 import {GADBannerView} from 'react-native-google-firebase-admob/BannerView';
 ```
 
+## REFERENCE
+https://github.com/sbugert/react-native-admob
