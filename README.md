@@ -24,6 +24,12 @@ pod 'Firebase/AdMob'
 ```
 import {GADBannerView} from 'react-native-google-firebase-admob/BannerView';
 ```
+```
+<GADBannerView
+    bannerSize='smartBannerPortrait'
+    adUnitID='05e9c0888efd4f28'
+/>
+```
 
 ## REFERENCE
 https://github.com/sbugert/react-native-admob
