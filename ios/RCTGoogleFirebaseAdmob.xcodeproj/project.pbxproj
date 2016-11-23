@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D10A06B1DE43C9A00E36453 /* RCTUmengUShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A06A1DE43C9A00E36453 /* RCTUmengUShare.m */; };
-		4D10A0AD1DE47CEA00E36453 /* RCTConvert+UMSocialPlatformType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10A0AC1DE47CEA00E36453 /* RCTConvert+UMSocialPlatformType.m */; };
+		4D6379EC1DE54DE800BC45E9 /* RCTGADBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6379EB1DE54DE800BC45E9 /* RCTGADBannerView.m */; };
+		4D6379EF1DE54FCA00BC45E9 /* RCTGADBannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6379EE1DE54FCA00BC45E9 /* RCTGADBannerViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D10A0691DE43C9A00E36453 /* RCTUMengUShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUMengUShare.h; sourceTree = "<group>"; };
-		4D10A06A1DE43C9A00E36453 /* RCTUmengUShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTUmengUShare.m; sourceTree = "<group>"; };
-		4D10A0AC1DE47CEA00E36453 /* RCTConvert+UMSocialPlatformType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+UMSocialPlatformType.m"; sourceTree = "<group>"; };
+		4D6379EA1DE54DE800BC45E9 /* RCTGADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGADBannerView.h; sourceTree = "<group>"; };
+		4D6379EB1DE54DE800BC45E9 /* RCTGADBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGADBannerView.m; sourceTree = "<group>"; };
+		4D6379ED1DE54FCA00BC45E9 /* RCTGADBannerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGADBannerViewManager.h; sourceTree = "<group>"; };
+		4D6379EE1DE54FCA00BC45E9 /* RCTGADBannerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGADBannerViewManager.m; sourceTree = "<group>"; };
 		CE26B1D81D64421700D853E8 /* libRCTGoogleFirebaseAdmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTGoogleFirebaseAdmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,9 +45,10 @@
 		4D10A0681DE43C9A00E36453 /* RCTUmengUShare */ = {
 			isa = PBXGroup;
 			children = (
-				4D10A0691DE43C9A00E36453 /* RCTUMengUShare.h */,
-				4D10A06A1DE43C9A00E36453 /* RCTUmengUShare.m */,
-				4D10A0AC1DE47CEA00E36453 /* RCTConvert+UMSocialPlatformType.m */,
+				4D6379EA1DE54DE800BC45E9 /* RCTGADBannerView.h */,
+				4D6379EB1DE54DE800BC45E9 /* RCTGADBannerView.m */,
+				4D6379ED1DE54FCA00BC45E9 /* RCTGADBannerViewManager.h */,
+				4D6379EE1DE54FCA00BC45E9 /* RCTGADBannerViewManager.m */,
 			);
 			path = RCTUmengUShare;
 			sourceTree = "<group>";
@@ -126,8 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D10A06B1DE43C9A00E36453 /* RCTUmengUShare.m in Sources */,
-				4D10A0AD1DE47CEA00E36453 /* RCTConvert+UMSocialPlatformType.m in Sources */,
+				4D6379EC1DE54DE800BC45E9 /* RCTGADBannerView.m in Sources */,
+				4D6379EF1DE54FCA00BC45E9 /* RCTGADBannerViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +235,10 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../ios/Pods/Google-Mobile-Ads-SDK/Frameworks",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -257,7 +262,10 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../ios/Pods/Google-Mobile-Ads-SDK/Frameworks",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

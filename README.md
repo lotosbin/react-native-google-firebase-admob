@@ -11,6 +11,8 @@ rnpm link react-native-google-firebase-admob
 
 ## 集成到iOS
 ```
+pod 'Firebase/Core'
+pod 'Firebase/AdMob'
 ```
 ## 集成到android
 
@@ -20,6 +22,6 @@ rnpm link react-native-google-firebase-admob
 ## Usage
 
 ```
-
+import {GADBannerView} from 'react-native-google-firebase-admob/BannerView';
 ```
 
