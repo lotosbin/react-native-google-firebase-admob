@@ -3,7 +3,11 @@
   "version": "0.0.2",
   "dependencies": {},
   "devDependencies": {
-    "mversion": "^1.10.1"
+    "jest": "^17.0.3",
+    "jest-react-native": "^17.1.0",
+    "mversion": "^1.10.1",
+    "react": "^15.4.1",
+    "react-native": "^0.38.0"
   },
   "main": "index.js",
   "repository": {
@@ -12,7 +16,10 @@
   },
   "scripts": {
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
-    "test": "exit 0",
+    "test": "jest",
     "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
