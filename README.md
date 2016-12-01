@@ -1,5 +1,5 @@
 # react-native-google-firebase-admob
-[![Build Status](https://travis-ci.org/MarkEdmondson1234/googleAuthR.svg?branch=shiny-tests)](https://travis-ci.org/MarkEdmondson1234/googleAuthR)
+[![Build Status](https://travis-ci.org/lotosbin/react-native-google-firebase-admob.svg?branch=shiny-tests)](https://travis-ci.org/lotosbin/react-native-google-firebase-admob)
 
 ## TODO
 - [x] ios
