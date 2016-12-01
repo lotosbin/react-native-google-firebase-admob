@@ -1,4 +1,6 @@
 # react-native-google-firebase-admob
+[![Build Status](https://travis-ci.org/MarkEdmondson1234/googleAuthR.svg?branch=shiny-tests)](https://travis-ci.org/MarkEdmondson1234/googleAuthR)
+
 ## TODO
 - [x] ios
 - [ ] android
